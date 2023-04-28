@@ -1,0 +1,55 @@
+{
+  "elements": [
+    {
+      "symbol": "H",
+      "name": "Hydrogen",
+      "atomic_number": 1,
+      "atomic_weight": 1.008,
+      "series": "nonmetal",
+      "series_color": "#fcff38",
+      "description": "Hydrogen is a chemical element with symbol H and atomic number 1. Classified as a nonmetal, hydrogen is a gas at room temperature.",
+      "state": "gas",
+      "group": 1,
+      "period": 1,
+      "info_url": "https://pubchem.ncbi.nlm.nih.gov/element/1",
+      "density": 	0.00008988,
+      "melting_point": 13.81,
+      "boiling_point": 20.28,
+      "year_discovered": 1766
+    },
+    {
+      "symbol": "He",
+      "name": "Helium",
+      "atomic_number": 2,
+      "atomic_weight": 4.0026,
+      "series": "noble_gas",
+      "series_color": "#ffcb63",
+      "description": "Helium is a chemical element with symbol He and atomic number 2. Classified as a noble gas, helium is a gas at room temperature.",
+      "state": "gas",
+      "group": 18,
+      "period": 1,
+      "info_url": "https://pubchem.ncbi.nlm.nih.gov/element/2",
+      "density": 0.0001785,
+      "melting_point": 0.95,
+      "boiling_point": 4.22,
+      "year_discovered": 1868
+    },
+    {
+      "symbol": "Li",
+      "name": "Lithium",
+      "atomic_number": 3,
+      "atomic_weight": 7.0,
+      "series": "alkali_metal",
+      "series_color": "#ff9c93",
+      "description": "Lithium is a chemical element with symbol Li and atomic number 3. Classified as an alkali metal, lithium is a solid at room temperature.",
+      "state": "solid",
+      "group": 1,
+      "period": 2,
+      "info_url": "https://pubchem.ncbi.nlm.nih.gov/element/3",
+      "density": 0.534,
+      "melting_point": 453.65,
+      "boiling_point": 1615,
+      "year_discovered": 1817
+    }
+  ]
+}
