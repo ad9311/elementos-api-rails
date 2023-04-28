@@ -1,0 +1,9 @@
+{
+  "name": "elementos-api-ruby",
+  "homepage": "https://github.com/ad9311/elements-api-ruby",
+  "private": true,
+  "author": "Ángel Díaz",
+  "devDependencies": {
+    "prettier": "2.8.8"
+  }
+}

@@ -45,8 +45,8 @@ class ElementsController < ApplicationController
   private
 
   def set_element
-    @element = Element.find_by(symbol: params[:element])
+    @element = Element.find_by(symbol: params[:element].capitalize)
     @element = Element.find_by(atomic_number: params[:element]) if @element.nil?
-    @element = Element.find_by(name: params[:element]) if @element.nil?
+    @element = Element.find_by(name: params[:element].capitalize) if @element.nil?
   end
 end
