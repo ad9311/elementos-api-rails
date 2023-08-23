@@ -100,7 +100,7 @@
             "density": 2.267,
             "melting_point": 3823,
             "boiling_point": 4098,
-            "year_discovered": 0
+            "year_discovered": null
         },
         {
             "symbol": "N",
@@ -219,7 +219,7 @@
             "density": 2.7,
             "melting_point": 933.437,
             "boiling_point": 2792,
-            "year_discovered": 0
+            "year_discovered": null
         },
         {
             "symbol": "Si",
@@ -270,7 +270,7 @@
             "density": 2.067,
             "melting_point": 388.36,
             "boiling_point": 717.75,
-            "year_discovered": 0
+            "year_discovered": null
         },
         {
             "symbol": "Cl",
@@ -338,7 +338,7 @@
             "density": 1.54,
             "melting_point": 1115,
             "boiling_point": 1757,
-            "year_discovered": 0
+            "year_discovered": null
         },
         {
             "symbol": "Sc",
@@ -432,23 +432,6 @@
             "atomic_weight": 55.84,
             "series": "transition_metal",
             "series_color": "#fcff38",
-            "description": "Manganese is a chemical element with symbol Mn and atomic number 25. Classified as a transition metal, manganese is a solid at room temperature.",
-            "state": "solid",
-            "group": 8,
-            "period": 4,
-            "info_url": "https://pubchem.ncbi.nlm.nih.gov/element/26",
-            "density": 7.874,
-            "melting_point": 1811,
-            "boiling_point": 3134,
-            "year_discovered": 0
-        },
-        {
-            "symbol": "Fe",
-            "name": "Iron",
-            "atomic_number": 26,
-            "atomic_weight": 55.84,
-            "series": "transition_metal",
-            "series_color": "#fcff38",
             "description": "Iron is a chemical element with symbol Fe and atomic number 26. Classified as a transition metal, iron is a solid at room temperature.",
             "state": "solid",
             "group": 8,
@@ -457,7 +440,7 @@
             "density": 7.874,
             "melting_point": 1811,
             "boiling_point": 3134,
-            "year_discovered": 0
+            "year_discovered": null
         },
         {
             "symbol": "Co",
@@ -508,7 +491,7 @@
             "density": 8.933,
             "melting_point": 1357.77,
             "boiling_point": 2835,
-            "year_discovered": 0
+            "year_discovered": null
         },
         {
             "symbol": "Zn",
@@ -576,7 +559,7 @@
             "density": 5.776,
             "melting_point": 1090,
             "boiling_point": 887,
-            "year_discovered": 0
+            "year_discovered": null
         },
         {
             "symbol": "Se",
@@ -814,7 +797,7 @@
             "density": 10.501,
             "melting_point": 1234.93,
             "boiling_point": 2435,
-            "year_discovered": 0
+            "year_discovered": null
         },
         {
             "symbol": "Cd",
@@ -865,7 +848,7 @@
             "density": 7.287,
             "melting_point": 505.08,
             "boiling_point": 2875,
-            "year_discovered": 0
+            "year_discovered": null
         },
         {
             "symbol": "Sb",
@@ -882,7 +865,7 @@
             "density": 6.685,
             "melting_point": 903.78,
             "boiling_point": 1860,
-            "year_discovered": 0
+            "year_discovered": null
         },
         {
             "symbol": "Te",
@@ -1358,7 +1341,7 @@
             "density": 19.282,
             "melting_point": 1337.33,
             "boiling_point": 3129,
-            "year_discovered": 0
+            "year_discovered": null
         },
         {
             "symbol": "Hg",
@@ -1375,10 +1358,10 @@
             "density": 13.5336,
             "melting_point": 234.32,
             "boiling_point": 629.88,
-            "year_discovered": 0
+            "year_discovered": null
         },
         {
-            "symbol": "Ti",
+            "symbol": "Tl",
             "name": "Thallium",
             "atomic_number": 81,
             "atomic_weight": 204.383,
@@ -1409,7 +1392,7 @@
             "density": 11.342,
             "melting_point": 600.61,
             "boiling_point": 2022,
-            "year_discovered": 0
+            "year_discovered": null
         },
         {
             "symbol": "Bi",
