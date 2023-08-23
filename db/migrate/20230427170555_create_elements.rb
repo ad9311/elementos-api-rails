@@ -9,7 +9,7 @@ class CreateElements < ActiveRecord::Migration[7.0]
       t.string :series_color, null: false
       t.text :description, null: false
       t.integer :state, null: false
-      t.integer :group, null: false
+      t.integer :group
       t.integer :period, null: false
       t.text :info_url, null: false
       t.float :density

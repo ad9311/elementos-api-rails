@@ -8,7 +8,7 @@
 #  boiling_point   :float
 #  density         :float
 #  description     :text             not null
-#  group           :float
+#  group           :integer
 #  info_url        :text             not null
 #  melting_point   :float
 #  name            :string           not null
