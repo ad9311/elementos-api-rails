@@ -1,4 +1,4 @@
-json.data do
+json.elements do
   json.array! @elements do |element|
     json.symbol element.symbol.capitalize
     json.name element.name.capitalize
