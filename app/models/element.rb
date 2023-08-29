@@ -8,7 +8,7 @@
 #  boiling_point   :float
 #  density         :float
 #  description     :text             not null
-#  group           :integer          not null
+#  group           :integer
 #  info_url        :text             not null
 #  melting_point   :float
 #  name            :string           not null
@@ -31,8 +31,8 @@ class Element < ApplicationRecord
   enum series: {
     alkali_metal: 0,
     alkaline_earth_metal: 1,
-    lanthanoid: 2,
-    actinoid: 3,
+    lanthanide: 2,
+    actinide: 3,
     transition_metal: 4,
     post_transition_metal: 5,
     metalloid: 6,

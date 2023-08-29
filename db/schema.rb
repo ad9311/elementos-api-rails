@@ -23,7 +23,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_27_170555) do
     t.string "series_color", null: false
     t.text "description", null: false
     t.integer "state", null: false
-    t.integer "group", null: false
+    t.integer "group"
     t.integer "period", null: false
     t.text "info_url", null: false
     t.float "density"
