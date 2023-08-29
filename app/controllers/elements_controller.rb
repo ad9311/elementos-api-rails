@@ -14,12 +14,15 @@ class ElementsController < ApplicationController
   private
 
   def set_element
-    @element = Element.find_by(atomic_number: params[:element])
-    return if @element
-
-    @element = Element.find_by(symbol: params[:element].downcase)
-    return if @element
-
-    @element = Element.find_by(name: params[:element].downcase)
+    @element = case params[:find_by]
+               when 'atomic_number'
+                 Element.find_by(atomic_number: params[:element])
+               when 'symbol'
+                 Element.find_by(symbol: params[:element].downcase)
+               when 'name'
+                 Element.find_by(name: params[:element].downcase)
+               else
+                 Element.find_by(atomic_number: params[:element])
+               end
   end
 end
