@@ -21,8 +21,6 @@ class ElementsController < ApplicationController
                  Element.find_by(symbol: params[:element].downcase)
                when 'name'
                  Element.find_by(name: params[:element].downcase)
-               else
-                 Element.find_by(atomic_number: params[:element])
                end
   end
 end
