@@ -16,6 +16,13 @@ AllCops:
 Metrics/BlockLength:
   Exclude:
     - "lib/tasks/auto_annotate_models.rake"
+Metrics/MethodLength:
+  Max: 20
+
+Lint/RedundantSafeNavigation:
+  Enabled: true
+  Exclude:
+    - "app/views/**/*.jbuilder"
 
 Style/Documentation:
   Enabled: false
