@@ -1,6 +1,6 @@
-# Elementos-API-Ruby
+# Elementos-API-Rails
 
-Welcome to Elementos-API-Ruby, an API service that provides information about the elements of the periodic table. With this API, you can retrieve specific element details by name, symbol, or atomic number. This project is built using Ruby on Rails.
+Welcome to Elementos-API-Rails, an API service that provides information about the elements of the periodic table. With this API, you can retrieve specific element details by name, symbol, or atomic number. This project is built using Ruby on Rails.
 
 ## Getting Started
 
@@ -16,8 +16,8 @@ Before you begin, ensure you have the following installed:
 
 ### Installing
   ```shell
-  git clone https://github.com/your-username/elementos-api-ruby.git
-  cd elementos-api-ruby
+  git clone https://github.com/your-username/elementos-api-rails.git
+  cd elementos-api-rails
   bundle install
   rails db:create
   rails db:migrate
